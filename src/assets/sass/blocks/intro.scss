@@ -1,0 +1,61 @@
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.hexagon {
+  margin: 2rem 0 2rem 2rem;
+  width: 20rem;
+  height: 10rem;
+  background: red;
+  transform: rotate(90deg);
+  overflow:hidden;
+  visibility: hidden;
+
+    position: relative;
+}
+.hexagon__inside {
+  width: 100%;
+  height: 100%;
+  background: green;
+  transform: rotate(-60deg);
+  overflow:hidden;
+
+      position: absolute;
+  top: 0;
+  left: 0;
+}
+.hexagon__img{
+  width: 100%;
+  height: 100%;
+  background-size:80%;
+  overflow:hidden;
+/*   visibility: visible; */
+  transform: rotate(-60deg);
+
+
+      position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hexagon-img{
+
+  width: 120%;
+  height: 120%;
+  background:url('/assets/img/intro/1.jpg') center no-repeat ;
+  background-size:100%;
+transform: rotate(30deg);
+  visibility: visible;
+//
+//      position: absolute;
+//  top: 0;
+//  left: 0;
+}
+
+/* img{
+  width: 150%;
+  position: absolute;
+  left: -100px;
+transform: rotate(30deg);
+} */
